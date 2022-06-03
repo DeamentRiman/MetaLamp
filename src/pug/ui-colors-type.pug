@@ -1,0 +1,27 @@
+mixin colorsList(colorCode, title, background)
+    section.ui-colors
+        .ui-colors__color(class= background)
+        .ui-colors__description
+            h4.ui-colors__description-title #{title}
+            p.ui-colors__description-code #{colorCode}
+
+mixin fontSize(size, content)
+    section.ui-fonts
+        .ui-fonts__font-size= size
+        p.ui-fonts__content= content
+
+header.ui-header
+main.ui-main
+    .ui-main__left
+        +colorsList('#1F2041', 'Dark Shade 100%', 'ui-dark-shade-100')
+        +colorsList('#1F2041', 'Dark Shade 75%', 'ui-dark-shade-75')
+        +colorsList('#1F2041', 'Dark Shade 50%', 'ui-dark-shade-50')
+        +colorsList('#1F2041', 'Dark Shade 25%', 'ui-dark-shade-25')
+        +colorsList('#BC9CFF', 'Dark Shade 5%', 'ui-dark-shade-5')
+        +colorsList('#1F2041', 'Purple', 'ui-purple')
+        +colorsList('#6FCF97', 'Green', 'ui-green')
+
+    +fontSize('H1', 'This one is the sub-section or widget title')
+    +fontSize('H2', 'Next one is the item title inside widgets')
+    +fontSize('H3', 'This is a label or CTA text')
+    +fontSize('Body', 'This is the body text which is used for most of the design, like paragraphs, lists, etc.')

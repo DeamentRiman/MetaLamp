@@ -1,0 +1,17 @@
+@use 'blocks/color';
+@use 'fonts';
+
+* {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ui-main{
+    display: flex;
+    flex-direction: row;
+}
+.ui-colors__color{
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+}
