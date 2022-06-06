@@ -1,0 +1,21 @@
+.ui-colors{
+    display: flex;
+    padding-bottom: 20px;
+}
+.ui-colors__color{
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+}
+.ui-colors__description{
+    padding-left: 40px;
+}
+.ui-colors__title{
+    margin: 6px 0px;
+}
+.ui-colors__code{
+    margin: 0px;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: 400;
+}
