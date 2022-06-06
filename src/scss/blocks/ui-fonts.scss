@@ -2,17 +2,18 @@
     display: flex;
     align-items: center;
     padding-bottom: 50px;
-}
-.ui-fonts__font-size{
-    width: 37px;
-    margin-right: 30px;
-    color: var(--ui-font-size-color);
-    text-align: right;
-}
-.ui-fonts__font-size_font-weight{
-    font-weight: 400;
-}
-.ui-fonts__content{
-    max-width: 369px;
-    margin: 0;
-}
+
+    &__font-size{
+        width: 37px;
+        margin-right: 30px;
+        color: var(--ui-font-size-color);
+        text-align: right;
+    }
+
+    &__font-size_font-weight{
+        font-weight: 400;
+    }
+    &__content{
+        max-width: 369px;
+        margin: 0;
+}}

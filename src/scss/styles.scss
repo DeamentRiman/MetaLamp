@@ -1,12 +1,13 @@
-@use 'normalize.scss';
-@use 'colors';
-@use 'fonts';
-@use 'blocks/ui-main.scss';
-@use 'blocks/ui-header.scss';
-@use 'blocks/ui-logo.scss';
-@use 'blocks/ui-column.scss';
-@use 'blocks/ui-colors.scss';
-@use 'blocks/ui-fonts.scss';
+@import 'normalize.scss';
+@import 'colors';
+@import 'fonts';
+@import 'variables';
+@import 'blocks/ui-main';
+@import 'blocks/ui-header';
+@import 'blocks/ui-logo';
+@import 'blocks/ui-column';
+@import 'blocks/ui-colors';
+@import 'blocks/ui-fonts';
 
 body {
     display: grid;
@@ -25,7 +26,7 @@ body {
     overflow: hidden;
 }
 .container-wrapper {
-    width: 1440px;
+    @extend .desktop-width;
     margin: 0 auto;
     display: flex;
 }
