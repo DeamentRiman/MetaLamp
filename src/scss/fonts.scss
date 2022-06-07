@@ -28,26 +28,27 @@
     font-size: 24px;
     font-weight: 700;
     color: var(--ui-dark-shade-100);
-    // line-height: 29px;
+    line-height: 29px;
 }
 .title-h2 {
     font-family: 'Montserrat';
     font-size: 19px;
     font-weight: 700;
     color: var(--ui-dark-shade-100);
-    // line-height: 23px;
+    line-height: 23px;
 }
 .title-h3 {
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 700;
     color: var(--ui-dark-shade-100);
-    // line-height: 15px;
+    text-transform: uppercase;
+    line-height: 15px;
 }
 .body-text{
     font-family: 'Montserrat';
     font-size: 14px;
     font-weight: 400;
     color: var(--ui-font-body-color);
-    // line-height: 24px;
+    line-height: 24px;
 }
