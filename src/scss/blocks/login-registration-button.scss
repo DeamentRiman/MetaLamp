@@ -1,0 +1,19 @@
+.login-registration-button{
+    position: relative;
+    color: var(--ui-bcg-header);
+    width: 196px;
+    padding: 9px 20px;
+    margin: 18px 0 18px 10px;
+    z-index: 10;
+}
+.login-registration-button::before{
+    content: '';
+    position: absolute;
+    width: 196px;
+    height: 34px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, var(--ui-purple) 0%, var(--ui-button-purple) 100%);
+    border-radius: 22px;
+    z-index: -1;
+}

@@ -5,6 +5,10 @@
     --ui-green: #6FCF97;
     --ui-font-size-color: rgba(31, 32, 65, 0.25);
     --ui-font-body-color: rgba(31, 32, 65, 0.75);
+    --ui-bcg-header: #FFFFFF;
+    --ui-button-purple: #8BA4F9;
+    --ui-loggined-border: rgba(31, 32, 65, 0.1);
+    --ui-shadown: rgba(31, 32, 65, 0.1);
 }
 
 .ui-dark-shade-100{
@@ -29,8 +33,12 @@
 .ui-purple{
     background-color: var(--ui-purple);
 }
-.ui-green{
+.ui-green {
     background-color: var(--ui-green);
 }
+.background {
+    background-color: var(--ui-bcg-color);
+}
+
 
 

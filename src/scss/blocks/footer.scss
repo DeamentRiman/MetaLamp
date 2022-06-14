@@ -1,0 +1,26 @@
+.footer_position{
+    margin-top: 40px;
+}
+.footer{
+    background-color: var(--ui-bcg-header);
+
+    .container-wrapper {
+        justify-content: space-between;
+        padding-top: 100px;
+        padding-bottom: 95px;
+    }
+    .container-wrapper_padding_padding{
+        padding: 23px 140px;
+    }
+    .container-wrapper_min-width_width{
+        flex-direction: column;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background-color: var(--ui-bcg-header);
+        margin-bottom: 140px;
+        box-shadow: 0px 10px 20px 0px var(--ui-shadown);
+    }
+    &.background{
+        background-color: var(--ui-bcg-color);
+    }
+}

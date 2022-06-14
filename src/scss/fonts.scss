@@ -51,4 +51,7 @@
     font-weight: 400;
     color: var(--ui-font-body-color);
     line-height: 24px;
+    &_active{
+        font-weight: 700;
+    }
 }

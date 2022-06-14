@@ -1,14 +1,35 @@
-@import 'normalize.scss';
-@import 'colors';
+@import 'normalize';
 @import 'fonts';
+@import 'colors';
 @import 'variables';
 @import 'blocks/ui-main';
 @import 'blocks/ui-header';
+@import 'blocks/header';
 @import 'blocks/ui-logo';
 @import 'blocks/ui-column';
 @import 'blocks/ui-colors';
 @import 'blocks/ui-fonts';
+@import 'blocks/main';
+@import 'blocks/logo-toxin';
+@import 'blocks/navigation';
+@import 'blocks/login-in';
+@import 'blocks/login-registration-button';
+@import 'blocks/footer';
+@import 'blocks/logo-footer';
+@import 'blocks/footer-navigation';
+@import 'blocks/footer-navigation-list';
+@import 'blocks/logined';
+@import 'blocks/footer-subscription';
+@import 'blocks/social-link';
+@import 'blocks/copyright-min-width';
+@import 'blocks/social-link-min-width';
+@import 'blocks/logo-footer-min-width';
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     display: grid;
     min-width: 100%;
@@ -25,6 +46,9 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+ul{
+    list-style: none;
+}
 .container-wrapper {
     width: 100%;
     max-width: 1440px;
@@ -32,4 +56,27 @@ body {
     margin: 0 auto;
     padding: 0 150px;
 }
+.container-wrapper_space_space{
+    justify-content: flex-start;
+    height: inherit;
+    padding: 0 140px;
+}
+.container-wrapper_min-width_width{
+    max-width: 768px;
+}
+.button{
+    @extend .title-h3;
+    text-transform: uppercase;
+    border-radius: 22px;
+    display: inline-block;
+    height: 34px;
+    text-align: center;
+    text-decoration: none;
+}
+.footer-horizontal{
+    width: 100%;
+    height: 1px;
+    box-shadow: 0px 1px 0px var(--ui-loggined-border);
+}
+
 

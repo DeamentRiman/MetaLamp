@@ -1,0 +1,35 @@
+.navigation{
+     width: 38.5%;
+     &_padding_right{
+         padding-right: 18px;
+         width: 40.5%;
+     }
+}
+.navigation-list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navigation-list__item{
+    margin: 24px 0 24px 0;
+    padding-right: 2px;
+}
+.navigation-list__item_arrow_arrow{
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    padding-right: 25px;
+}
+.navigation-list__item_arrow_arrow:before{
+    content:'';
+    position: absolute;
+    background: url('/src/img/arrow-down.svg') no-repeat;
+    width: 17px;
+    height: 21px;
+    top: 9px;
+    right: 3px;
+    z-index: 2;
+}
+.navigation-list__link{
+    text-decoration: none;
+}
